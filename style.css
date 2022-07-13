@@ -232,7 +232,6 @@ footer .footer{
         margin-bottom: 20px;
         width: 97%;
         margin: auto;
-        background-color: aqua;
     }
     .apresentacao .texto-apresentacao{
         width: 50%;
@@ -244,6 +243,9 @@ footer .footer{
         display: flex;
         width: 50%;
         margin: auto;
+    }
+    .apresentacao:nth-child(2){
+        overflow: hidden;
     }
     #quem-somos{
         flex-direction: column-reverse;
